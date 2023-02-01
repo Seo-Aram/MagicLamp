@@ -35,8 +35,6 @@ public class OrderInsertController{
             return new ResponseEntity<>(null, new HttpHeaders(), HttpStatus.EXPECTATION_FAILED);
         }
 
-
-        
         log.info(" >>>>> insert 후 order >>>>>> " + paymentBook);
 
         int result = 0;
